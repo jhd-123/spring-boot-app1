@@ -125,3 +125,5 @@ jobs:
           # 새 컨테이너 실행 (8080 포트 매핑)
           docker run -d --name app-container -p 8080:8080 ${{ secrets.DOCKERHUB_USERNAME }}/spring-boot-app1:latest
         EOF
+
+
